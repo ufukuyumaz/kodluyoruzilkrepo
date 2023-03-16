@@ -10,7 +10,7 @@ let datetime = new Date().toLocaleTimeString('tr-tr',{hour12:false}) //saat
 const weekday = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"]; // haftanın günleri
 let day = weekday[new Date().getDay()]; // sayısal veriyi günler ile eşleme
 
-document.querySelector("#myClock").innerHTML = `${datetime}  ${day}`
+document.querySelector("#myClock").innerHTML = `${datetime}  ${day}`;
 
 }
 
